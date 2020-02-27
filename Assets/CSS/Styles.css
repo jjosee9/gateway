@@ -1,0 +1,245 @@
+/**********HOME*********/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("http://static.everypixel.com/ep-pixabay/1107/1278/3401/17520/11071278340117520687-dallas.jpg");
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+.herotext {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: 30%;
+}
+
+.home-header {
+  color: blue;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  text-align: center;
+  
+}
+
+.nav-links {
+  text-align: center;
+  border: solid 2px aquamarine;
+  color: white;
+  font-size: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 0 15px;
+  color: white;
+}
+
+.fa {
+  color: white;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 12%;
+  background-color: blue;
+  font-size: 40px !important;
+}
+
+i {
+  font-size: 60px;
+}
+
+.dallas-logo {
+  margin: 20px auto;
+  display: block;
+}
+.about {
+  background-color: black;
+}
+.aboutparagraph {
+  color: white;
+  background: black;
+}
+
+
+.footer {
+  background-color: black;
+  border: solid 2px aqua;
+  
+}
+.facebook-logo {
+  background-image: url("https://www.pinclipart.com/picdir/middle/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png");
+  height: 100px;
+  width: 100px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    border: solid 2px red;
+}
+.copyright{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+/********To do css**********/
+
+.headtodo {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+}
+
+.todolist{
+ font-size: 20px;
+}
+
+.todo-1 {
+  color:aqua;
+  background-color: black;
+  height:400px;
+  width: 571px;
+  float:left;
+  border: 30px solid blue;
+  }
+
+.todo-2 {
+  color:aqua;
+  background-color: black;
+  height:400px;
+  width: 571px;
+  float:right;
+  border: 30px solid blue;
+}
+
+.todo-3 {
+  color:aqua;
+  background-color: black;
+  height:600px;
+  width: 571px;
+  float:left;
+  border: 30px solid blue;
+  }
+
+.todo-4 {
+  color:aqua;
+  background-color: black;
+  height:600px;
+  width: 571px;
+  float: right;
+  border: 30px solid blue;
+  }
+
+/**********It Page css*********/
+
+.headit {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+}
+
+.it-companies-heading {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: aqua;
+}
+
+.it-companies-heading a {
+  color: aqua;
+}
+
+.company-image {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.advantix {
+  color:aqua;
+  background-color: black;
+  width: 100%;
+  border: 10px solid aqua;
+  padding: 12px;
+  }
+
+.appshark {
+  color:aqua;
+  background-color: black;
+  width: 100%;
+  border: 10px solid aqua;
+  padding: 12px;
+}
+
+.ascendix {
+  color:aqua;
+  background-color: black;
+  width: 100%;
+  border: 10px solid aqua;
+  padding: 12px;
+}
+
+/**********Contact css*********/
+.contact-header {
+  color: PaleTurquoise;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+}
+.container-contact {
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  
+  }
+
+.contacth2{
+  color: PaleTurquoise;
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+}
+ 
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+}
+
+.fname{
+  color: white;
+}
+
+button {
+  width: 30%;
+  height: 30px;
+  background-color: blue;
+  color: white;
+}
